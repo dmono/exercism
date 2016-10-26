@@ -2,7 +2,6 @@
 # 0*8^2 + 1*8^1 + 1*8^0
 # 0*64 + 1*8 + 1*1 = 9
 
-
 class Octal
   attr_reader :number
   

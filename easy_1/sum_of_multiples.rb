@@ -14,11 +14,9 @@ class SumOfMultiples
   def to(limit)
     self.class.to(limit, multiples)
   end
-  
 end
 
 new = SumOfMultiples.new(7, 13, 17)
 puts new.to(20) # 51
-
 
 puts SumOfMultiples.to(10) # 23
